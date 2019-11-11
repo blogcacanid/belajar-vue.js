@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Belajar Vue.js - Hello World</title>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+    <div id="app">
+        <!-- Memanggil property message yang ada di dalam model Vue  -->
+        <h1>{{message}}</h1> 
+    </div>
+
+    <script>
+        new Vue({
+            // melakukan link ke id app
+            el : '#app',
+            data : {
+                message:'Hello World...!'
+            }
+        })
+    </script>
+    
+</body>
+</html>
